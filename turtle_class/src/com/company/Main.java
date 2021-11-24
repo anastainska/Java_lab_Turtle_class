@@ -4,12 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Turtle object1 = new Turtle();
-
-        object1.scientificName = "Murrhardtia";
-        object1.maritalStatus = true;
-        object1.speed = "35kmh";
-        object1.turtleCounter = 1;
+        Turtle object1 = new Turtle("scientificName", "5khm", 19, "Yellow", "Anastassia", 20, "5khm", "Sea turtle", true, true);
 
         Turtle object2 = new Turtle();
 
@@ -42,6 +37,8 @@ public class Main {
         object6.speed = "14kmh";
 
         Turtle object7 = new Turtle("dflgkd", "skjfbk",83,"skjdb");
+
+        Turtle object8 = new Turtle();
 
         System.out.println("Scientific name of first turtle: " + object1.getScientificName());
         System.out.println("Speed1 of second turtle: " + object2.getSpeed());
